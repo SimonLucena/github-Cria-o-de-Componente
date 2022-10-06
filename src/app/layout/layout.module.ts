@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { MenuComponent } from './menu/menu.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [MenuComponent],
@@ -12,6 +13,7 @@ import { MenuComponent } from './menu/menu.component';
     CommonModule,
     MatButtonModule,
     MatMenuModule,
+    RouterModule,
   ],
   exports: [MenuComponent],
 })
