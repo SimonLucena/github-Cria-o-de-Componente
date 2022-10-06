@@ -1,15 +1,28 @@
-.mat-card-simples{
+.mat-card-simples {
   max-width: 300px;
   background-color: aliceblue;
   margin-top: 10px;
 }
 
-.card-insercao-usuario{
+.card-insercao-usuario {
   max-width: 650px;
   background-color: azure;
   margin-top: 10px;
 }
 
-.mat-form-simples {
-  margin-left:5px;
+.mat-form-field {
+  margin-right: 25px;
+  width: 25%;
+}
+
+.mat-card {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 2px;
+  margin-left: 2px;
+  background-color: rgba(130, 215, 255, 0.342);
+}
+
+.color {
+  color: rgb(250, 108, 250);
 }
